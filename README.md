@@ -2,6 +2,7 @@ Stating project
 npm init -> generates package.json file
 npm install --save express sequelize sequelize-cli --> install dependencies for express and sequelize ORM
 npx sequelize-cli init --> generates some configuration file like config, migrations, seeders and models folders
+Link: https://sequelize.org/docs/v7/cli/
 
 node server.js ---> (To run the project) --> Used as a Starting point
 
@@ -29,3 +30,7 @@ Create 4 database table with sequelize-cli to create model and migration with co
 
 NOW RUN MIGRATION WITH BELOW COMMAND: THIS HELPS TO GENERATE DATABASE TABLES CREATED USING ABOVE COMMANDS.
 npx sequelize-cli db:migrate
+---------------
+
+body-parser installed to work with JSON
+Posts request end point created to insert data to posts model.
