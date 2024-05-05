@@ -30,3 +30,7 @@ Create 4 database table with sequelize-cli to create model and migration with co
 
 NOW RUN MIGRATION WITH BELOW COMMAND: THIS HELPS TO GENERATE DATABASE TABLES CREATED USING ABOVE COMMANDS.
 npx sequelize-cli db:migrate
+---------------
+
+body-parser installed to work with JSON
+Posts request end point created to insert data to posts model.
