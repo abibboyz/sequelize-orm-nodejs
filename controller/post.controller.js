@@ -11,14 +11,12 @@ function save(req, res){
     }
 
 models.Post.create(post).then(result=>{
-    console.log("I am here");
     res.status(201).json({
         
         message: "Post Created Successfully",
         post: result
     });
 }).catch(error=>{
-    console.log("I am here catch")
     res.status(500).json({
         message: "Internal Server error",
         post: error
